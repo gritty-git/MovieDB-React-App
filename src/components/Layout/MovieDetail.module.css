@@ -1,0 +1,54 @@
+.actions {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ModalDetail {
+  display: flex;
+  flex-direction: row;
+}
+
+.modaltext {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #000000;
+  padding: 0.5rem 0.9rem;
+  border-radius: 1px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #615956;
+  border-color: #000000;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #000000;
+}
+
+.actions .button {
+  background-color: #ffffff;
+  color: white;
+}
+
+.poster_image {
+  width: 45%;
+  height: auto;
+
+  top: 1px;
+}

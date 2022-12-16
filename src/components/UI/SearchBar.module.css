@@ -1,0 +1,29 @@
+.searchbar {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 8px;
+
+  position: absolute;
+  width: 180px;
+  height: 36px;
+  left: 1140px;
+  top: 20px;
+
+  /* Navy / 0 */
+  background: #ffffff;
+
+  /* Navy/500 */
+  border: 1px solid #c0c4cc;
+  border-radius: 2px;
+}
+
+.searchinput {
+  border: none;
+  background: transparent;
+  outline: 0;
+}

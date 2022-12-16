@@ -1,0 +1,49 @@
+.moviecard {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: rgb(24, 24, 24);
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.circleBase {
+  border-radius: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  background-color: rgb(255, 255, 255);
+  left: 14px;
+  top: 14px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.poster_image {
+  width: 100%;
+  height: auto;
+
+  top: 1px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.titleText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* or 162% */
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
